@@ -1,5 +1,7 @@
-There are two input files, sample-ab.txt and sample-c.txt.
-  sample-ab.txt has 10000 vertices, sample-c.txt has 30.
+This is a project that provides multiples solutions to the Travelling-Salesman Problem, there are 3 types of modes:
 
-There are output files for sample-ab.txt run with MST and FASTTSP,
-while sample-c.txt was run with all 3 modes.
+Mode A: Minimum Spanning Tree
+Mode B: Fast TSP: a 2-opt optimization
+Mode C: Optimum TSP
+
+The inputs are points that represents coordinates preceding with a number that indicates the total number of points, the output will be the sequence that the points are visited as the TSP route.
